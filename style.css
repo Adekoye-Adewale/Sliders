@@ -78,42 +78,42 @@
   font-size: 20px;
 }*/
 
-.swiper-slide .main-content .title {
-  font-size: 2.6em;
-  font-weight: bold;
-  margin-bottom: 30px;
-  background-color: blue;
-}
-
-.swiper-slide .content {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  width: 50%;
-  padding-left: 5%;
-  color: #fff;
-}
-
 .swiper-slide .content .title {
   font-size: 2.6em;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-.swiper-slide .content .caption {
-  display: block;
-  font-size: 13px;
-  line-height: 1.4;
-  transform: translateX(50px);
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.7s ease;
+.swiper-slide .content {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 50%;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(61, 35, 57);
 }
 
+.swiper-slide .content .title-Thumnail {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.swiper-slide .content .caption {
+  display: block;
+  font-size: 18px;
+  line-height: 1.4;
+ /* transform: translateX(50px);*/
+  opacity: 1;
+  transition: opacity 0.3s ease, transform 0.7s ease;
+}
+/*
 .swiper-slide .content .caption.show {
   transform: translateX(0);
   opacity: 1;
 }
-
+*/
 [class^=swiper-button-] {
   width: 44px;
   opacity: 0;
