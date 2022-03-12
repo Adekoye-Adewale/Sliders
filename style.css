@@ -23,12 +23,14 @@
 .swiper-container.nav-slider {
   width: 20%;
   padding-left: 5px;
+ 
 }
 
 .swiper-container.nav-slider .swiper-slide {
   cursor: pointer;
-  opacity: 0.4;
-  transition: opacity 0.3s ease;
+  opacity: 0.8;
+  transition: opacity 0.6s ease;
+  
 }
 
 .swiper-container.nav-slider .swiper-slide.swiper-slide-active {
@@ -84,7 +86,7 @@
   margin-bottom: 30px;
 }
 
-.swiper-slide .content {
+.content {
   position: absolute;
   top: 40%;
   left: 10%;
@@ -100,12 +102,19 @@
   margin-bottom: 30px;
 }
 
+.content-Thumnail {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+}
+
 .swiper-slide .content .caption {
   display: block;
   font-size: 18px;
   line-height: 1.4;
- /* transform: translateX(50px);*/
   opacity: 1;
+  letter-spacing: 0.1em;
   transition: opacity 0.3s ease, transform 0.7s ease;
 }
 /*
