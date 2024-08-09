@@ -15,7 +15,7 @@ but I would appreciate an attribution from my work. I hope you enjoy it.
 $(document).ready(function(){
 
   //Swipe speed:
-  var speed = "650"; //ms.
+  var speed = "1200"; //ms.
 
   //Elements:
   var interactiveElements = $('input, button, a');
@@ -37,7 +37,7 @@ $(document).ready(function(){
     $(".panel").css({
       "transition": "cubic-bezier(.4,.95,.5,1.5) "+speed+"ms"
     });
-  }, 200);
+  }, 400);
 
   //Presets:
   $(".panel:not(:first)").addClass("right");
