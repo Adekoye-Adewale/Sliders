@@ -1,2 +1,2 @@
 # Sliders
- Tutorial sliders for later use
+ Tutorial sliders for later use. 
